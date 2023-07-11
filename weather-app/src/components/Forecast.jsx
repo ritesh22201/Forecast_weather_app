@@ -1,6 +1,6 @@
 import React from 'react';
 import sunImg from '../Images/sunImg2.jpg'
-//72f92dfc9ea322d61ceb817923a73cdf
+
 const Forecast = ({title}) => {
     return (
         <div>
