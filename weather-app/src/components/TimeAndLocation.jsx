@@ -11,7 +11,7 @@ const TimeAndLocation = ({weather : {dt, timezone, name, country}}) => {
         </div>
         <div className='flex items-center justify-center my-3'>
             <p className='text-white text-3xl font-medium'>
-                {`${timezone.split('/')[1]}, ${country}`}
+                {`${name}, ${country}`}
             </p>
         </div>
     </div>
